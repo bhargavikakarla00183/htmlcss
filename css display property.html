@@ -23,8 +23,6 @@
          padding-inline: 10px;
          padding-block: 10px;
          border-radius: 5px;
-         /* padding-left: 1px; */
-         margin-top: ;
          width:365px;
          margin: 5px;
         }
@@ -40,7 +38,8 @@
 
         }
         .button:hover{
-            
+            background-color: rgb(146, 183, 240);
+            cursor: pointer;
         }
         .div{
             background-color: rgb(170, 168, 168);
@@ -48,7 +47,52 @@
             height: 150px;
             margin-top: 5px;
         }
-        
+        .uber{
+            background-color: lightsteelblue;
+            width: 400px;
+        }
+        .loc{
+            padding-inline: 15px;
+            padding-block: 15px;
+            margin-left: 5px;
+            width: 350px;
+            border-radius: 3px;
+        }
+         .des{
+            margin-top: 5px;
+            padding-inline: 15px;
+            padding-block: 15px;
+            margin-left: 5px;
+            width: 350px;
+            border-radius: 3px;
+        }
+        .res{
+            padding-inline: 15px;
+            padding-block: 15px;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-bottom: 15px;
+            background-color: black;
+            color: ivory;
+        }
+        .res:hover{
+            background-color: rgb(61, 61, 61);
+            cursor: pointer;
+        }
+        .later{
+            padding-inline: 15px;
+            padding-block: 15px;
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+            background-color: rgb(241, 237, 237);
+            color: rgb(8, 8, 8);
+            border-color: rgb(214, 210, 210);
+        }
+        .later{
+            background-color: rgb(201, 191, 191);
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -60,6 +104,13 @@
     <button class="button">Sign Up</button>
     </div>
 
-
+   <h1>Uber request a ride form</h1>
+    <div class="uber">
+        <h1>Request a ride now</h1>
+    <input class="loc" type="text" placeholder="Enter pickup location">
+    <input class="des" type="text" placeholder="Enter Description">
+    <button class="res">Request now</button>
+    <button class="later">Schedule for later</button>
+    </div>
 </body>
 </html>
