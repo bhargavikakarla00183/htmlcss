@@ -1,3 +1,40 @@
-h1{
-    
-}
+.tech{
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 18px;
+            width: 300px;
+            line-height: 24px;
+            margin-bottom: 0;
+        }
+        .sub{
+            font-family: Arial;
+            font-size: 14px;
+            color: dimgrey; 
+            margin-top: 0;
+
+        }
+        .tick{
+             font-family: Arial;
+              margin-top: 0;
+        }
+        .para{
+         font-family: Arial;
+          font-size: 14px;
+         width: 300px;
+         color: dimgrey;
+         line-height: 20px;
+        }
+        .red{
+            margin-top: 50px;
+             font-family: Arial;
+             font-size: 14px;
+             background-color: red;
+             text-align: center;
+             padding-top: 18px;
+             padding-bottom: 18px;
+            
+        }
+        .line:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
