@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div</title>
+    <style>
+        .Black {
+            background-color: black;
+            color: ghostwhite;
+            width: 350px;
+            height: 100px;
+            margin-left: 30px;
+            margin-top: 25px;
+        }
+
+        .grey {
+            color: darkgrey;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+
+        .tube {
+            padding-left: 5px;
+            padding-top: 15px;
+        }
+
+        .white {
+            background-color: darkgrey;
+            width: 400px;
+            height: 150px;
+            padding-top: 1px;
+        }
+
+        .cat {
+            width: 220px;
+            height: 160px;
+            object-position: top;
+            /* object-fit: contain; */
+        }
+
+        .fri {
+            width: 200px;
+            height: 180px;
+            margin-left: 2px;
+            height: fit-content;
+            padding-left: 5px;
+        }
+
+        .button {
+            background-color: blue;
+            width: 100px;
+            height: 40px;
+            border-radius: 15px;
+            color: ghostwhite;
+            margin-bottom: 5px;
+        }
+
+        .divi {
+            border: 2px solid grey;
+            box-shadow: 10px 10px 10px rgb(212, 207, 207, 0.5);
+            width: 220px;
+            justify-content: center;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            object-fit: cover;
+
+        }
+
+        .vamsi {
+            margin: 0;
+
+        }
+        .maindiv{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+
+        }
+        .google{
+            width:500px;
+            padding-inline: 10px;
+            padding-block: 10px; 
+            /* border-radius: 5px; */
+            border-color: rgb(149, 153, 153);
+            /* margin-bottom: 20px;
+             margin-left: 5px;
+            margin-top: 30px; */
+            /* display: block; */
+           
+        }
+        .search{
+        /* margin-left: 500px;
+        margin-right: 15px; */
+        /* margin-left: 330px; */
+        margin-top: 5px;
+        padding-inline: 15px;
+        padding-block: 15px;
+        }
+        .search1{
+         /* margin-left: 500px;
+        margin-right: 15px; */
+        /* margin-left: 330px; */
+        padding-inline: 15px;
+        padding-block: 15px;   
+
+        }
+        .pic{
+            width: 250px;
+            height: 100px;
+        }
+        .third{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="white">
+        <div class="Black">
+            <p class="tube"><strong> Install YouTube Music</strong></p>
+            <p class="grey">Add YouTube Music to your desktop for quick and easy access</p>
+        </div>
+    </div><br>
+    <div class="maindiv">
+    <div class="divi">
+        <div class="vamsi">
+            <img class="cat" src="cat.jpg">
+        </div>
+        <div class="fri">
+            <p><strong>Oliver</strong></p>
+            <p>2 mutual friends</p>
+            <button class="button">Add Friend</button>
+        </div>
+    </div>
+    <div class="divi">
+        <div class="vamsi">
+            <img class="cat" src="cat1.jpg">
+        </div>
+        <div class="fri">
+            <p><strong>Oliver</strong></p>
+            <p>2 mutual friends</p>
+            <button class="button">Add Friend</button>
+        </div>
+    </div>
+    <div class="divi">
+        <div>
+            <img class="cat" src="cat2.jpg">
+        </div>
+        <div class="fri">
+            <p><strong>Oliver</strong></p>
+            <p>2 mutual friends</p>
+            <button class="button">Add Friend</button>
+        </div>
+    </div>
+    </div><br>
+    <div class="third">
+        <img class="pic" src="google.jpg">
+      
+        <div>
+            <input class="google" type="text" placeholder="Search Google or type a URL">
+        </div>
+        <div>
+ <button class="search">Google Search</button>
+        <button class="search1">I'm Feeling Lucky</button>
+
+        </div>
+       
+    </div>
+</body>
+
+</html>
