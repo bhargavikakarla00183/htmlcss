@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<style>
+    .container{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+    }
+  
+    
+.col1{
+     background-color: #f1f1f1;
+  padding: 10px;
+  flex: 50%;
+}
+.col2{
+     background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+</style>
+<body>
+   <div class="container">
+    <div class="col1">1</div>
+    <div class="col2">2</div>
+   </div> 
+</body>
+</html>

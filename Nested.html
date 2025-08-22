@@ -1,36 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nested</title>
-</head>
-<style>
-.pic{
-    width:20px;
-    border-radius:50px;
-}
-.button{
-    background-color: rgb(59, 124, 209);
-    color:white;
-    padding-inline: 15px;
-    padding-block: 5px;
-    border-radius: 10px;
-}
-</style>
-<body>
-    <div>
-    <div class="cat">
-       <p class="pic"> <img src="cat.jpg"> </p>
-        </div>
+  </head>
+  <style>
+    .cat {
+      width: 50px;
+      height: 50px;
+      border-radius: 90px;
+      margin-bottom: 20px;
+      margin-top: 15px;
+    }
+    .button {
+      background-color: rgb(59, 124, 209);
+      color: white;
+      padding-inline: 15px;
+      padding-block: 5px;
+      border-radius: 10px;
+      margin-left: 90px;
+    }
+    .maindiv {
+      display: flex;
+      gap: 20px;
+    }
+    .subtext {
+      color: darkgray;
+      padding-top: 0px;
+    }
+    .text {
+      margin-top: 0px;
+    }
+    .maindiv {
+      align-items: center;
+    }
+    p {
+      padding: 0px;
+      margin: 0px;
+    }
+    .sub {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      width: 15vw;
+      justify-items: space-between;
+    }
+  </style>
+  <body>
+    <div class="maindiv">
+      <div class="sub">
+        <img class="cat" src="cat.jpg" />
         <div class="text">
-            <p>oliver</p>
-            <p>the cat</p>
+          <p><strong>Oliver</strong></p>
+          <div class="subtext">
+            <p>The cat</p>
             <p>Popular</p>
+          </div>
         </div>
-        <div>
-            <button class="button">Follow</button>
-        </div>
+      </div>
+
+      <div>
+        <button class="button">Follow</button>
+      </div>
     </div>
-</body>
+
+     <div class="maindiv">
+      <div class="sub">
+        <img class="cat" src="cat1.jpg" />
+        <div class="text">
+          <p><strong>Mimi</strong></p>
+          <div class="subtext">
+            <p>Sleepy cat</p>
+            <p>Popular</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button class="button">Follow</button>
+      </div>
+    </div>
+
+     <div class="maindiv">
+      <div class="sub">
+        <img class="cat" src="cat2.jpg" />
+        <div class="text">
+          <p><strong>Rex</strong></p>
+          <div class="subtext">
+            <p>Happy BullDog</p>
+            <p>Popular</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button class="button">Follow</button>
+      </div>
+    </div>
+    <!-- <div class="maindiv">
+      <div class="subdiv">
+        <img class="cat" src="cat1.jpg" />
+      </div>
+      <div class="text">
+        <p><strong>Mimi</strong></p>
+        <div class="subtext">
+          <p>Sleepy Cat</p>
+          <p>Popular</p>
+        </div>
+      </div>
+      <div>
+        <button class="button">Follow</button>
+      </div>
+    </div> -->
+
+    <!-- <div class="maindiv">
+      <div class="subdiv">
+        <img class="cat" src="cat2.jpg" />
+      </div>
+      <div class="text">
+        <p><strong>Rex</strong></p>
+        <div class="subtext">
+          <p>Happy Bulldog</p>
+          <p>Popular</p>
+        </div>
+      </div>
+      <div>
+        <button class="button">Follow</button>
+      </div>
+    </div> -->
+  </body>
 </html>
